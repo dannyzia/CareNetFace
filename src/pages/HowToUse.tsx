@@ -15,7 +15,6 @@ import {
   Users,
   UserCheck,
   Building2,
-  ChevronDown,
   Phone,
   HelpCircle,
   BookOpen,

@@ -134,8 +134,8 @@ export default function Features() {
   const [activeCategory, setActiveCategory] = useState('guardians');
   const heroRef = useRef<HTMLDivElement>(null);
 
-  const featureCategories = getFeatureCategories(t);
-  const platformFeatures = getPlatformFeatures(t);
+  const featureCategories = getFeatureCategories();
+  const platformFeatures = getPlatformFeatures();
   const activeCategoryData = featureCategories.find(c => c.id === activeCategory);
 
   return (
