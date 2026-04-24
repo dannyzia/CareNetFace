@@ -32,7 +32,7 @@ interface FeatureCategory {
   features: Feature[];
 }
 
-const getFeatureCategories = (t: any): FeatureCategory[] => [
+const getFeatureCategories = (): FeatureCategory[] => [
   {
     id: 'guardians',
     titleKey: 'guardians.title',
@@ -120,7 +120,7 @@ const getFeatureCategories = (t: any): FeatureCategory[] => [
   },
 ];
 
-const getPlatformFeatures = (t: any) => [
+const getPlatformFeatures = () => [
   { titleKey: 'platform.f1.title', descriptionKey: 'platform.f1.description', icon: Zap },
   { titleKey: 'platform.f2.title', descriptionKey: 'platform.f2.description', icon: Globe },
   { titleKey: 'platform.f3.title', descriptionKey: 'platform.f3.description', icon: Smartphone },
