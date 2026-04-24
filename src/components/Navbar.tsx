@@ -95,9 +95,9 @@ export default function Navbar() {
               </Link>
             ))}
             {externalLinks.map((link) => (
-              <a
+              <Link
                 key={link.name}
-                href={link.href}
+                to={link.href}
                 className={`relative px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 ${
                   isScrolled
                     ? 'text-dark-600 hover:text-primary hover:bg-primary-50'
@@ -105,7 +105,7 @@ export default function Navbar() {
                 }`}
               >
                 {link.name}
-              </a>
+              </Link>
             ))}
           </div>
 
@@ -182,9 +182,9 @@ export default function Navbar() {
               </Link>
             ))}
             {externalLinks.map((link) => (
-              <a
+              <Link
                 key={link.name}
-                href={link.href}
+                to={link.href}
                 onClick={() => setIsMobileMenuOpen(false)}
                 className={`block px-4 py-3 rounded-lg text-sm font-medium transition-colors ${
                   isScrolled
@@ -193,7 +193,7 @@ export default function Navbar() {
                 }`}
               >
                 {link.name}
-              </a>
+              </Link>
             ))}
             <div className="pt-2 space-y-2">
               <Button

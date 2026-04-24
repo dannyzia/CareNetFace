@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import 'react';
 import { useTranslation } from 'react-i18next';
 import {
   Shield,
@@ -17,34 +17,11 @@ interface ValueProp {
 }
 
 function ValueCard({ prop, index, t }: { prop: ValueProp; index: number; t: any }) {
-  const [isVisible, setIsVisible] = useState(false);
-  const cardRef = useRef<HTMLDivElement>(null);
   const Icon = prop.icon;
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.2 }
-    );
-
-    if (cardRef.current) {
-      observer.observe(cardRef.current);
-    }
-
-    return () => observer.disconnect();
-  }, []);
 
   return (
     <div
-      ref={cardRef}
-      className={`group bg-white rounded-2xl p-6 shadow-card hover:shadow-card-hover transition-all duration-500 hover:-translate-y-2 ${
-        isVisible ? 'animate-slide-up opacity-100' : 'opacity-0 translate-y-10'
-      }`}
+      className="group bg-white rounded-2xl p-6 shadow-card hover:shadow-card-hover transition-all duration-500 hover:-translate-y-2 animate-slide-up"
       style={{ animationDelay: `${index * 0.1}s` }}
     >
       {/* Icon */}
@@ -81,8 +58,6 @@ function ValueCard({ prop, index, t }: { prop: ValueProp; index: number; t: any 
 
 export default function ValueProposition() {
   const { t } = useTranslation('home');
-  const [headerVisible, setHeaderVisible] = useState(false);
-  const headerRef = useRef<HTMLDivElement>(null);
 
   const valueProps: ValueProp[] = [
     {
@@ -122,24 +97,6 @@ export default function ValueProposition() {
     },
   ];
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setHeaderVisible(true);
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.3 }
-    );
-
-    if (headerRef.current) {
-      observer.observe(headerRef.current);
-    }
-
-    return () => observer.disconnect();
-  }, []);
-
   return (
     <section className="py-24 bg-dark-50 relative overflow-hidden">
       {/* Background Pattern */}
@@ -155,14 +112,7 @@ export default function ValueProposition() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Header */}
-        <div
-          ref={headerRef}
-          className={`text-center mb-16 transition-all duration-700 ${
-            headerVisible
-              ? 'opacity-100 translate-y-0'
-              : 'opacity-0 translate-y-10'
-          }`}
-        >
+        <div className="text-center mb-16 animate-fade-in">
           <span className="inline-block px-4 py-2 bg-primary-100 text-primary rounded-full text-sm font-semibold mb-4">
             {t('valueProps.badge')}
           </span>
@@ -185,13 +135,7 @@ export default function ValueProposition() {
 
           {/* Illustration */}
           <div className="lg:col-span-4 hidden lg:block">
-            <div
-              className={`sticky top-32 transition-all duration-1000 delay-500 ${
-                headerVisible
-                  ? 'opacity-100 translate-x-0'
-                  : 'opacity-0 translate-x-10'
-              }`}
-            >
+            <div className="sticky top-32 animate-slide-up delay-500">
               <div className="relative">
                 <img
                   src="/value-illustration.jpg"

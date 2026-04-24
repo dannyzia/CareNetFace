@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import {
   Users,
@@ -23,7 +23,6 @@ interface Audience {
 export default function TargetAudience() {
   const { t } = useTranslation('home');
   const [activeTab, setActiveTab] = useState('guardians');
-  const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLDivElement>(null);
 
   const audiences: Audience[] = [
@@ -91,24 +90,6 @@ export default function TargetAudience() {
 
   const activeAudience = audiences.find((a) => a.id === activeTab) || audiences[0];
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.2 }
-    );
-
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
-
-    return () => observer.disconnect();
-  }, []);
-
   return (
     <section ref={sectionRef} className="py-24 bg-white relative overflow-hidden">
       {/* Background decoration */}
@@ -119,13 +100,7 @@ export default function TargetAudience() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Header */}
-        <div
-          className={`text-center mb-16 transition-all duration-700 ${
-            isVisible
-              ? 'opacity-100 translate-y-0'
-              : 'opacity-0 translate-y-10'
-          }`}
-        >
+        <div className="text-center mb-16 animate-fade-in">
           <span className="inline-block px-4 py-2 bg-secondary-100 text-secondary rounded-full text-sm font-semibold mb-4">
             {t('targetAudience.badge')}
           </span>
@@ -138,13 +113,7 @@ export default function TargetAudience() {
         </div>
 
         {/* Tab Navigation */}
-        <div
-          className={`flex flex-wrap justify-center gap-3 mb-12 transition-all duration-700 delay-200 ${
-            isVisible
-              ? 'opacity-100 translate-y-0'
-              : 'opacity-0 translate-y-10'
-          }`}
-        >
+        <div className="flex flex-wrap justify-center gap-3 mb-12 animate-fade-in delay-200">
           {audiences.map((audience) => {
             const Icon = audience.icon;
             const isActive = activeTab === audience.id;
@@ -169,13 +138,7 @@ export default function TargetAudience() {
         </div>
 
         {/* Content Card */}
-        <div
-          className={`transition-all duration-700 delay-300 ${
-            isVisible
-              ? 'opacity-100 translate-y-0'
-              : 'opacity-0 translate-y-10'
-          }`}
-        >
+        <div className="animate-slide-up delay-300">
           <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-dark-100">
             <div className="grid lg:grid-cols-2">
               {/* Left - Content */}

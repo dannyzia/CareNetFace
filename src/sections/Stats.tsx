@@ -40,8 +40,8 @@ function useCountUp(end: number, duration: number = 2000, start: boolean = false
   return count;
 }
 
-function StatCard({ stat, index, isVisible, t }: { stat: StatItem; index: number; isVisible: boolean; t: any }) {
-  const count = useCountUp(stat.value, 2000, isVisible);
+function StatCard({ stat, index, t }: { stat: StatItem; index: number; t: any }) {
+  const count = useCountUp(stat.value, 2000, true);
   const Icon = stat.icon;
 
   return (
@@ -74,7 +74,6 @@ function StatCard({ stat, index, isVisible, t }: { stat: StatItem; index: number
 export default function Stats() {
   const { t } = useTranslation('home');
   const sectionRef = useRef<HTMLDivElement>(null);
-  const [isVisible, setIsVisible] = useState(false);
   
   const stats: StatItem[] = [
     { value: 10000, suffix: '+', labelKey: 'stats.label1', icon: Users },
@@ -83,24 +82,6 @@ export default function Stats() {
     { value: 5000, suffix: '+', labelKey: 'stats.label4', icon: Heart },
     { value: 500, suffix: '+', labelKey: 'stats.label5', icon: Building2 },
   ];
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.3 }
-    );
-
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
-
-    return () => observer.disconnect();
-  }, []);
 
   return (
     <section ref={sectionRef} className="py-20 bg-white relative overflow-hidden">
@@ -128,7 +109,6 @@ export default function Stats() {
               key={stat.labelKey}
               stat={stat}
               index={index}
-              isVisible={isVisible}
               t={t}
             />
           ))}

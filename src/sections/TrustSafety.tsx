@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import {
   FileCheck,
@@ -27,7 +27,6 @@ interface SafetyFeature {
 
 export default function TrustSafety() {
   const { t } = useTranslation('home');
-  const [isVisible, setIsVisible] = useState(false);
   const [activeStep, setActiveStep] = useState<number | null>(null);
   const sectionRef = useRef<HTMLDivElement>(null);
 
@@ -88,24 +87,6 @@ export default function TrustSafety() {
     },
   ];
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.2 }
-    );
-
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
-
-    return () => observer.disconnect();
-  }, []);
-
   return (
     <section ref={sectionRef} className="py-24 bg-white relative overflow-hidden">
       {/* Background Pattern */}
@@ -121,13 +102,7 @@ export default function TrustSafety() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Header */}
-        <div
-          className={`text-center mb-16 transition-all duration-700 ${
-            isVisible
-              ? 'opacity-100 translate-y-0'
-              : 'opacity-0 translate-y-10'
-          }`}
-        >
+        <div className="text-center mb-16 animate-fade-in">
           <span className="inline-block px-4 py-2 bg-primary-100 text-primary rounded-full text-sm font-semibold mb-4">
             {t('trustSafety.badge')}
           </span>
@@ -141,28 +116,14 @@ export default function TrustSafety() {
 
         <div className="grid lg:grid-cols-2 gap-16">
           {/* Left - Verification Steps */}
-          <div
-            className={`transition-all duration-700 delay-200 ${
-              isVisible
-                ? 'opacity-100 translate-x-0'
-                : 'opacity-0 -translate-x-10'
-            }`}
-          >
+          <div className="animate-slide-up delay-200">
             <h3 className="text-2xl font-bold text-dark-800 mb-8">
               {t('trustSafety.stepsTitle')}
             </h3>
 
             <div className="relative">
               {/* Timeline Line */}
-              <div className="absolute left-6 top-0 bottom-0 w-0.5 bg-dark-200">
-                <div
-                  className="absolute top-0 left-0 w-full bg-primary transition-all duration-1000"
-                  style={{
-                    height: isVisible ? '100%' : '0%',
-                    transitionDelay: '0.5s',
-                  }}
-                />
-              </div>
+              <div className="absolute left-6 top-0 bottom-0 w-0.5 bg-primary" />
 
               {/* Steps */}
               <div className="space-y-6">
@@ -173,11 +134,7 @@ export default function TrustSafety() {
                   return (
                     <div
                       key={step.number}
-                      className={`relative flex gap-6 group cursor-pointer transition-all duration-300 ${
-                        isVisible
-                          ? 'animate-slide-up opacity-100'
-                          : 'opacity-0 translate-y-5'
-                      }`}
+                      className="relative flex gap-6 group cursor-pointer animate-slide-up"
                       style={{ animationDelay: `${index * 0.1}s` }}
                       onMouseEnter={() => setActiveStep(index)}
                       onMouseLeave={() => setActiveStep(null)}
@@ -223,13 +180,7 @@ export default function TrustSafety() {
           </div>
 
           {/* Right - Safety Features */}
-          <div
-            className={`transition-all duration-700 delay-400 ${
-              isVisible
-                ? 'opacity-100 translate-x-0'
-                : 'opacity-0 translate-x-10'
-            }`}
-          >
+          <div className="animate-slide-up delay-400">
             <h3 className="text-2xl font-bold text-dark-800 mb-8">
               {t('trustSafety.featuresTitle')}
             </h3>
@@ -241,11 +192,7 @@ export default function TrustSafety() {
                 return (
                   <div
                     key={feature.titleKey}
-                    className={`group bg-white rounded-2xl p-6 shadow-card hover:shadow-card-hover transition-all duration-500 hover:-translate-y-1 ${
-                      isVisible
-                        ? 'animate-slide-up opacity-100'
-                        : 'opacity-0 translate-y-5'
-                    }`}
+                    className="group bg-white rounded-2xl p-6 shadow-card hover:shadow-card-hover transition-all duration-500 hover:-translate-y-1 animate-slide-up"
                     style={{ animationDelay: `${0.3 + index * 0.1}s` }}
                   >
                     <div className="flex items-start gap-4">
@@ -267,13 +214,7 @@ export default function TrustSafety() {
             </div>
 
             {/* Trust Badge */}
-            <div
-              className={`mt-8 bg-gradient-to-r from-primary to-primary-700 rounded-2xl p-6 text-white transition-all duration-700 delay-700 ${
-                isVisible
-                  ? 'opacity-100 translate-y-0'
-                  : 'opacity-0 translate-y-10'
-              }`}
-            >
+            <div className="mt-8 bg-gradient-to-r from-primary to-primary-700 rounded-2xl p-6 text-white animate-fade-in delay-700">
               <div className="flex items-center gap-4">
                 <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0">
                   <Shield className="w-8 h-8 text-white" />

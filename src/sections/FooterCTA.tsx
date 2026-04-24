@@ -1,30 +1,11 @@
-import { useEffect, useRef, useState } from 'react';
+import { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export default function FooterCTA() {
   const { t } = useTranslation('home');
-  const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.3 }
-    );
-
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
-
-    return () => observer.disconnect();
-  }, []);
 
   return (
     <section ref={sectionRef} className="relative py-24 overflow-hidden">
@@ -46,13 +27,7 @@ export default function FooterCTA() {
       </div>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div
-          className={`text-center transition-all duration-700 ${
-            isVisible
-              ? 'opacity-100 translate-y-0'
-              : 'opacity-0 translate-y-10'
-          }`}
-        >
+        <div className="text-center animate-fade-in">
           <h2 className="text-5xl font-extrabold text-white mb-6">
             {t('footerCTA.title')}
           </h2>
@@ -69,13 +44,7 @@ export default function FooterCTA() {
           </div>
 
           {/* Trust Text */}
-          <p
-            className={`mt-8 text-white/60 text-sm transition-all duration-700 delay-500 ${
-              isVisible
-                ? 'opacity-100 translate-y-0'
-                : 'opacity-0 translate-y-10'
-            }`}
-          >
+          <p className="mt-8 text-white/60 text-sm animate-fade-in delay-500">
             {t('footerCTA.trustText')}
           </p>
         </div>
