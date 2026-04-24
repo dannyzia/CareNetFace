@@ -1,0 +1,50 @@
+{
+  "hero": {
+    "badge": "Legal",
+    "title": "Cookie {{subtitle}}",
+    "lastUpdated": "Last Updated: March 2026"
+  },
+  "disclaimer": "We take cookie transparency seriously to protect user trust while powering CareNet features.",
+  "sections": {
+    "introduction": {
+      "title": "1. Introduction",
+      "content": "This Cookie Policy explains how CareNet Bangladesh uses cookies and similar tracking technologies on our website and platform. Cookies enhance usability, ensure functionality, and support analytics for caregiving service delivery."
+    },
+    "whatAreCookies": {
+      "title": "2. What Are Cookies?",
+      "content": "Cookies are small text files placed on your device by a website. They enable servers to recognize your device and remember settings, preferences, and patterns. Cookies can be first-party (set by CareNet) or third-party (set by service providers)."
+    },
+    "typesOfCookies": {
+      "title": "3. Types of Cookies We Use",
+      "content": "- Essential Cookies: Necessary for platform operation, account login, security, and session management.\n- Functional Cookies: Preserve language preferences, user interface settings, and form data.\n- Analytics Cookies: Collect anonymized performance data about visits, interactions, and feature usage.\n- Marketing Cookies: Deliver personalized content and measure campaign effectiveness (used only with consent)."
+    },
+    "specificCookies": {
+      "title": "4. Specific Cookies and Purpose",
+      "content": "Examples of cookies we may set include:\n- _carenet_session: Session identifier for logged-in users.\n- _carenet_csrf: CSRF protection and secure form submission.\n- _ga, _gid, _gat: Google Analytics cookies for aggregated usage insights.\n- _fbp, _gcl_au: Marketing tracking for advertising performance assessments."
+    },
+    "thirdParty": {
+      "title": "5. Third-Party Cookies",
+      "content": "We use trusted third-party services for analytics and social integration. These providers (e.g., Google Analytics, social networks) may set cookies to operate across websites. They are governed by their own privacy and cookie policies."
+    },
+    "consentManagement": {
+      "title": "6. Cookie Consent Management",
+      "content": "By using CareNet and accepting our cookie banner, you consent to cookie use as described. You may manage consent choices, including opting out of non-essential cookies, through UI controls if provided."
+    },
+    "manageDisable": {
+      "title": "7. How to Manage or Disable Cookies",
+      "content": "You can control cookies through your browser settings. Most browsers allow you to block or delete cookies entirely. Keep in mind that disabling cookies may affect website functionality, login experience, and personalization."
+    },
+    "lifespan": {
+      "title": "8. Cookie Lifespan",
+      "content": "Cookie durations may vary: \n- Session cookies expire when you close your browser.\n- Persistent cookies remain for a fixed period (e.g., 30 days, 1 year) as set by the cookie provider.\n- Third-party cookies follow the lifespan set by each provider."
+    },
+    "updates": {
+      "title": "9. Updates to This Policy",
+      "content": "We may update this policy over time. Updates will be published on this page with a revised \"Last Updated\" date. Continued use of CareNet constitutes acceptance of updates."
+    },
+    "contact": {
+      "title": "10. Contact",
+      "content": "For cookie policy inquiries: \n- Email: privacy@carenet.bd\n- Phone: +8801742957397\n- Address: CareNet Bangladesh, Dhaka, Bangladesh."
+    }
+  }
+}

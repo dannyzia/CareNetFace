@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "pricing": "Pricing",
+    "howToUse": "How to Use",
+    "download": "Download",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies",
+    "getStarted": "Get Started Free"
+  },
+  "footer": {
+    "brand": {
+      "name": "CareNet",
+      "description": "Bangladesh's trusted platform for professional caregiving services. Connecting families with verified caregivers and licensed agencies."
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "home": "Home",
+      "features": "Features",
+      "pricing": "Pricing",
+      "howToUse": "How to Use",
+      "contact": "Contact"
+    },
+    "legal": {
+      "title": "Legal",
+      "terms": "Terms & Conditions",
+      "privacy": "Privacy Policy",
+      "cookies": "Cookie Policy"
+    },
+    "newsletter": {
+      "title": "Stay Updated",
+      "description": "Subscribe to our newsletter for the latest updates and tips.",
+      "placeholder": "Enter your email"
+    },
+    "contact": {
+      "phone": "+8801742957397",
+      "email": "carenet@digital-papyrus.xyz",
+      "location": "Dhaka, Bangladesh"
+    },
+    "bottom": {
+      "copyright": "© 2024 CareNet Bangladesh. All rights reserved.",
+      "poweredBy": "Powered by Digital Papyrus"
+    }
+  }
+}

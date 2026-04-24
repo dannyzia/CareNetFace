@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "title": "Pricing",
+    "headline": "Simple, Transparent Pricing",
+    "description": "Choose the plan that fits your needs. No hidden fees, no long-term contracts."
+  },
+  "comingSoon": {
+    "title": "Pricing Coming Soon",
+    "description": "We're working on finalizing our pricing structure to ensure it's fair, transparent, and aligned with the value we provide. Our pricing will be designed to make care accessible for everyone.",
+    "whatsIncluded": {
+      "title": "What's Included",
+      "platformAccess": "Platform access for your role",
+      "coreFeatures": "Core features and tools",
+      "realTimeUpdates": "Real-time updates and notifications",
+      "customerSupport": "Customer support",
+      "platformUpdates": "Ongoing platform updates"
+    },
+    "enterprise": {
+      "title": "Enterprise",
+      "customIntegrations": "Custom integrations",
+      "accountManagement": "Dedicated account management",
+      "prioritySupport": "Priority support",
+      "volumeDiscounts": "Volume discounts",
+      "customReporting": "Custom reporting and analytics"
+    },
+    "earlyAccess": {
+      "title": "Interested in Early Access?",
+      "description": "Be the first to know when pricing is launched and receive exclusive early-bird offers.",
+      "placeholder": "Enter your email",
+      "cta": "Notify Me"
+    }
+  },
+  "forUsers": {
+    "title": "Tailored for Every User",
+    "description": "Our pricing will be customized for each type of user on our platform",
+    "guardians": "Guardians",
+    "guardiansDesc": "Affordable plans for families seeking quality care",
+    "caregivers": "Caregivers",
+    "caregiversDesc": "Fair commission structures to support your livelihood",
+    "agencies": "Agencies",
+    "agenciesDesc": "Scalable pricing to grow your operations",
+    "shopOwners": "Shop Owners",
+    "shopOwnersDesc": "Cost-effective plans to reach new customers"
+  },
+  "contactSales": {
+    "title": "Need a Custom Quote?",
+    "description": "Contact our sales team for enterprise pricing and custom solutions tailored to your organization.",
+    "contactSales": "Contact Sales",
+    "scheduleDemo": "Schedule a Demo"
+  }
+}

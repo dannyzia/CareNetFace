@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "badge": "Get the App",
+    "title": "Download {{app}}",
+    "description": "App downloads are not yet available. This is a placeholder page for upcoming installers and packages."
+  },
+  "platforms": {
+    "comingSoon": "Coming Soon",
+    "windows": {
+      "title": "Windows",
+      "description": ".exe installer coming soon"
+    },
+    "linuxDeb": {
+      "title": "Linux (deb)",
+      "description": ".deb package placeholder"
+    },
+    "linuxRpm": {
+      "title": "Linux (rpm)",
+      "description": ".rpm package placeholder"
+    },
+    "macos": {
+      "title": "macOS",
+      "description": ".dmg installer placeholder"
+    },
+    "android": {
+      "title": "Android",
+      "description": "APK download placeholder"
+    }
+  },
+  "contact": {
+    "text": "Need an immediate release? Contact us at",
+    "email": "carenet@digital-papyrus.xyz"
+  }
+}

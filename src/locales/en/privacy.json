@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Privacy",
+    "headline": "Privacy Policy",
+    "description": "Your privacy is important to us. Learn how we collect, use, and protect your information."
+  },
+  "introduction": {
+    "title": "Introduction",
+    "content": "CareNet is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you use our platform."
+  },
+  "sections": [
+    {
+      "title": "Information We Collect",
+      "content": "We collect information you provide directly, such as your name, phone number, email address, and role (Guardian, Caregiver, Agency, or Shop Owner). We also collect information automatically, such as device information, IP address, and usage data."
+    },
+    {
+      "title": "How We Use Your Information",
+      "content": "We use your information to provide and improve our services, facilitate transactions, communicate with you, ensure platform security, and comply with legal obligations. We do not sell your personal information to third parties."
+    },
+    {
+      "title": "Data Security & Encryption",
+      "content": "All data transmitted between the CareNet app and our servers is encrypted using industry-standard protocols. We implement robust security measures including encryption, row-level security, multi-factor authentication, and regular security audits to protect your data."
+    },
+    {
+      "title": "User Data Deletion Instructions",
+      "content": "**How to request deletion of your account and data:**\n\nIf you wish to delete your account and all associated personal data from CareNet, please follow these steps:\n\n1. Send an email to: admin@carenet.digital-papyrus.xyz\n2. Include your registered email address and phone number\n3. Specify \"Account Deletion Request\" in the subject line\n\nOur team will verify your identity, process your request, and permanently delete your account and all associated personal data within 30 days. You will receive a confirmation email once the deletion is complete."
+    },
+    {
+      "title": "Data Sharing",
+      "content": "We share your information only when necessary for service delivery, with your consent, or as required by law. Caregiver information is shared with agencies and guardians for placement purposes only."
+    },
+    {
+      "title": "Your Rights",
+      "content": "You have the right to access, correct, or delete your personal information. You can also opt out of marketing communications and manage your privacy settings through your account."
+    },
+    {
+      "title": "Cookies and Tracking",
+      "content": "We use cookies and similar technologies to improve user experience, analyze usage patterns, and provide personalized content. You can manage your cookie preferences in your browser settings."
+    },
+    {
+      "title": "Third-Party Services",
+      "content": "We may use third-party services for payment processing, analytics, and communication. These services have their own privacy policies and data handling practices."
+    },
+    {
+      "title": "Children's Privacy",
+      "content": "Our services are not intended for children under 18. We do not knowingly collect personal information from minors."
+    },
+    {
+      "title": "International Data Transfers",
+      "content": "Your data is primarily stored in Bangladesh. We may transfer data internationally for service delivery, ensuring appropriate safeguards are in place."
+    },
+    {
+      "title": "Changes to This Policy",
+      "content": "We may update this Privacy Policy from time to time. We will notify you of significant changes through the platform or by email."
+    }
+  ],
+  "contact": {
+    "title": "Contact Us",
+    "content": "If you have questions about this Privacy Policy or our data practices, please contact us at carenet@digital-papyrus.xyz"
+  }
+}

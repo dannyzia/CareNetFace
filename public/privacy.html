@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareNet Privacy Policy & Data Deletion</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            color: #1E293B;
+            background-color: #ffffff;
+        }
+        
+        /* Navbar */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 50;
+            background: transparent;
+            padding: 1.25rem 0;
+            transition: all 0.3s ease;
+        }
+        
+        .navbar.scrolled {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(12px);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            padding: 0.75rem 0;
+        }
+        
+        .navbar-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
+        }
+        
+        .logo img {
+            width: 2.5rem;
+            height: 2.5rem;
+            object-fit: contain;
+            border-radius: 0.75rem;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .logo-text {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: white;
+            transition: color 0.3s;
+        }
+        
+        .navbar.scrolled .logo-text {
+            color: #1E293B;
+        }
+        
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+            flex: 1;
+            justify-content: center;
+        }
+        
+        .nav-links a {
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 0.875rem;
+            font-weight: 500;
+            border-radius: 0.5rem;
+            transition: all 0.2s;
+        }
+        
+        .nav-links a:hover {
+            color: white;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .nav-links a.active {
+            color: white;
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        .navbar.scrolled .nav-links a {
+            color: #475569;
+        }
+        
+        .navbar.scrolled .nav-links a:hover {
+            color: #3B82F6;
+            background: #EFF6FF;
+        }
+        
+        .navbar.scrolled .nav-links a.active {
+            color: #3B82F6;
+            background: #EFF6FF;
+        }
+        
+        .cta-button {
+            padding: 0.75rem 1.5rem;
+            background: white;
+            color: #3B82F6;
+            font-weight: 600;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            transition: all 0.3s;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        
+        .cta-button:hover {
+            background: rgba(255, 255, 255, 0.9);
+            transform: translateY(-2px);
+        }
+        
+        .navbar.scrolled .cta-button {
+            background: #3B82F6;
+            color: white;
+        }
+        
+        .navbar.scrolled .cta-button:hover {
+            background: #2563EB;
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #3B82F6 0%, #1E40AF 100%);
+            padding: 8rem 1rem 5rem;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(to left, rgba(59, 130, 246, 0.3), transparent);
+            clip-path: polygon(30% 0, 100% 0, 100% 100%, 0% 100%);
+        }
+        
+        .hero-blur {
+            position: absolute;
+            top: 5rem;
+            right: 5rem;
+            width: 24rem;
+            height: 24rem;
+            background: white;
+            border-radius: 50%;
+            filter: blur(100px);
+            opacity: 0.1;
+        }
+        
+        .hero-content {
+            max-width: 1280px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            z-index: 10;
+        }
+        
+        .hero-badge {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            color: white;
+            margin-bottom: 1rem;
+        }
+        
+        .hero h1 span {
+            color: #F97316;
+        }
+        
+        .hero p {
+            font-size: 1.125rem;
+            color: rgba(255, 255, 255, 0.8);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .hero-wave {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            line-height: 0;
+        }
+        
+        .hero-wave svg {
+            width: 100%;
+            height: 80px;
+        }
+        
+        /* Content Section */
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 4rem 1.5rem;
+        }
+        
+        .content-header {
+            margin-bottom: 2rem;
+        }
+        
+        .content h2 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #1E293B;
+            margin: 2rem 0 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #E2E8F0;
+        }
+        
+        .content h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #334155;
+            margin: 1.5rem 0 0.75rem;
+        }
+        
+        .content p {
+            color: #475569;
+            margin-bottom: 1rem;
+            line-height: 1.7;
+        }
+        
+        .highlight {
+            background: #EFF6FF;
+            border-left: 4px solid #3B82F6;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        
+        .highlight p {
+            margin-bottom: 0.75rem;
+        }
+        
+        .highlight p:last-child {
+            margin-bottom: 0;
+        }
+        
+        .content a {
+            color: #3B82F6;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .content a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Footer */
+        .footer {
+            background: linear-gradient(180deg, #1E293B 0%, #0F172A 100%);
+            color: white;
+            padding: 3rem 1rem;
+            margin-top: 4rem;
+        }
+        
+        .footer-content {
+            max-width: 1280px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .footer p {
+            color: #94A3B8;
+            font-size: 0.875rem;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .footer-links a {
+            color: #CBD5E1;
+            text-decoration: none;
+            font-size: 0.875rem;
+            transition: color 0.2s;
+        }
+        
+        .footer-links a:hover {
+            color: #3B82F6;
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            .hero {
+                padding: 7rem 1rem 4rem;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 2rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="/" class="logo">
+                <img src="/logo.png" alt="CareNet logo">
+                <span class="logo-text">CareNet</span>
+            </a>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/features">Features</a>
+                <a href="/pricing">Pricing</a>
+                <a href="/how-to-use">How to Use</a>
+                <a href="/download">Download</a>
+                <a href="/contact">Contact</a>
+                <a href="/privacy.html" class="active">Privacy</a>
+            </div>
+            <a href="/contact" class="cta-button">Get Started Free</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-blur"></div>
+        <div class="hero-content">
+            <span class="hero-badge">Legal</span>
+            <h1>Privacy <span>Policy</span></h1>
+            <p>Last Updated: April 2026</p>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 80" fill="none" preserveAspectRatio="none">
+                <path d="M0 80L60 75C120 70 240 60 360 55C480 50 600 50 720 52.5C840 55 960 60 1080 62.5C1200 65 1320 65 1380 65L1440 65V80H0Z" fill="white"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Content -->
+    <main class="content">
+        <div class="content-header">
+            <p>This policy describes how CareNet Bangladesh processes personal data in connection with our caregiving platform.</p>
+        </div>
+
+        <h2>1. Information We Collect</h2>
+        <p>CareNet collects personal information such as your name, email address, and phone number when you create an account to facilitate caregiving services. We also collect photos if you choose to upload profile pictures or payment proofs. We securely track billing and CarePoint transactions to ensure the app functions correctly.</p>
+
+        <h2>2. How We Use Your Information</h2>
+        <p>We use your information exclusively to provide the CareNet service, manage user accounts, verify payments, and facilitate communication between Guardians and Care Providers. We do not sell your personal data to third parties under any circumstances.</p>
+
+        <h2>3. Data Security & Encryption</h2>
+        <p>All data transmitted between the CareNet app and our servers is encrypted in transit using secure HTTPS protocols. We employ industry-standard security measures to protect your account and financial data.</p>
+
+        <h2>4. User Data Deletion Instructions</h2>
+        <div class="highlight">
+            <p><strong>How to request deletion of your account and data:</strong></p>
+            <p>If you wish to delete your account and all associated personal data from CareNet, you can do so by contacting our support team.</p>
+            <p>Please send an email to <strong><a href="mailto:admin@carenet.digital-papyrus.xyz">admin@carenet.digital-papyrus.xyz</a></strong> with the subject line <em>"Data Deletion Request"</em> from the email address associated with your account.</p>
+            <p>Our team will verify your identity, process your request, and permanently delete your account, personal details, and uploaded media within 7 business days.</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="/">Home</a>
+                <a href="/features">Features</a>
+                <a href="/pricing">Pricing</a>
+                <a href="/contact">Contact</a>
+                <a href="/terms">Terms</a>
+                <a href="/privacy.html">Privacy</a>
+            </div>
+            <p>&copy; 2026 CareNet Bangladesh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Navbar scroll behavior
+        const navbar = document.querySelector('.navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>

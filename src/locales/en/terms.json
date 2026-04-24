@@ -1,0 +1,71 @@
+{
+  "hero": {
+    "badge": "Legal",
+    "subtitle": "Conditions",
+    "title": "Terms & {{subtitle}}",
+    "lastUpdated": "Last Updated: December 2024"
+  },
+  "disclaimer": "By using CareNet, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.",
+  "sections": {
+    "introduction": {
+      "title": "1. Introduction",
+      "content": "Welcome to CareNet Bangladesh. By accessing or using our platform, you agree to be bound by these Terms and Conditions. CareNet provides a comprehensive platform connecting guardians, caregivers, agencies, patients, and healthcare service providers across Bangladesh.\n\nThese Terms govern your use of the CareNet website, mobile application, and all related services. Please read them carefully before using our platform."
+    },
+    "accounts": {
+      "title": "2. User Accounts",
+      "content": "**2.1 Account Creation**\nWhen you create an account on CareNet, you agree to:\n- Provide accurate, complete, and current information\n- Maintain the security of your account credentials\n- Accept responsibility for all activities under your account\n- Notify us immediately of any unauthorized access\n- Update your information promptly when it changes\n\n**2.2 Eligibility**\nTo use CareNet, you must:\n- Be at least 18 years of age\n- Have the legal capacity to enter into contracts\n- Not be barred from using the platform under applicable laws\n\n**2.3 Account Security**\nYou are responsible for maintaining the confidentiality of your account credentials. CareNet will not be liable for any loss arising from unauthorized use of your account due to your failure to secure your credentials."
+    },
+    "verification": {
+      "title": "3. Verification Process",
+      "content": "All caregivers and agencies must undergo our comprehensive 6-step verification process:\n\n**3.1 Verification Steps**\n1. **Certificate Verification** - Educational and professional certificates verified against issuing institutions\n2. **Police Clearance Check** - Criminal background verification through Bangladesh Police\n3. **Health Screening** - Medical fitness certification for caregiving work\n4. **Psychological Assessment** - Mental health and emotional stability evaluation\n5. **In-Person Interview** - Face-to-face assessment by CareNet team members\n6. **Final Approval** - Comprehensive review and platform access grant\n\n**3.2 Ongoing Monitoring**\nCareNet reserves the right to re-verify users periodically and suspend accounts that fail to maintain verification standards."
+    },
+    "payment": {
+      "title": "4. Payment Terms",
+      "content": "**4.1 Platform Fees**\nCareNet facilitates payments between guardians, agencies, and caregivers. All payments are subject to platform commission fees as disclosed during registration. Fee structures vary by role and service type.\n\n**4.2 Payment Methods**\nWe accept payments through:\n- bKash\n- Nagad\n- Rocket\n- Credit/Debit Cards (Visa, MasterCard)\n- Bank Transfers\n\n**4.3 Payment Enforcement Policy**\n- **7-Day Grace Period:** Payments must be completed within 7 days of invoice issuance\n- **Escrow Protection:** Funds are held in escrow during active disputes\n- **Late Payment Penalties:** Additional fees may apply for delayed payments\n- **Account Suspension:** Continued non-payment may result in account suspension\n\n**4.4 Refund Policy**\nRefunds are processed on a case-by-case basis and are subject to our refund policy as outlined in our Help Center. Disputes are handled through our Two-Tier Authority System."
+    },
+    "conduct": {
+      "title": "5. User Conduct",
+      "content": "**5.1 Acceptable Use**\nUsers agree not to:\n- Violate any laws or regulations of Bangladesh\n- Provide false or misleading information\n- Harass, abuse, or harm other users\n- Attempt to circumvent platform fees or take transactions off-platform\n- Engage in fraudulent activities\n- Use the platform for any purpose other than its intended use\n- Interfere with the operation of the platform or other users' access\n\n**5.2 Professional Conduct**\nCaregivers and agencies are expected to:\n- Provide care in accordance with professional standards\n- Respect patient privacy and dignity\n- Maintain appropriate boundaries with patients and families\n- Follow all care plans and instructions\n- Report any incidents or concerns promptly\n\n**5.3 Prohibited Content**\nUsers may not post or transmit:\n- Illegal, harmful, or offensive content\n- Content that infringes on intellectual property rights\n- Spam, unsolicited messages, or marketing\n- Malicious code or software\n- Content that promotes discrimination or hate speech"
+    },
+    "disputes": {
+      "title": "6. Dispute Resolution",
+      "content": "**6.1 Two-Tier Authority System**\nAll disputes are subject to our structured resolution process:\n\n**Tier 1: Platform Moderators**\n- Initial review and mediation\n- Evidence gathering\n- Preliminary recommendations\n\n**Tier 2: Platform Administrators**\n- Final decision authority\n- Escalated dispute resolution\n- Binding arbitration for unresolved issues\n\n**6.2 Dispute Types**\nCommon disputes include:\n- Care quality complaints\n- Payment disagreements\n- Contract interpretation issues\n- Conduct violations\n- Service delivery problems\n\n**6.3 Escrow Period**\nA 48-hour escrow period applies to payment disputes. During this time, funds are held while the dispute is reviewed.\n\n**6.4 Evidence Requirements**\nAll dispute claims must be supported by:\n- Documentation of the issue\n- Relevant communications\n- Care logs or records\n- Any other pertinent evidence"
+    },
+    "privacy": {
+      "title": "7. Data Privacy and Security",
+      "content": "**7.1 Data Collection**\nCareNet collects:\n- Account registration information\n- Care and health records\n- Payment and transaction data\n- Usage and performance data\n- Location data (with user consent)\n\n**7.2 Data Protection**\nWe employ industry-standard security measures including:\n- Encryption of sensitive data\n- Row-level security\n- Multi-factor authentication support\n- Regular security audits\n\n**7.3 Data Sharing**\nWe do not sell your personal data. We may share data:\n- To provide our services (with your consent)\n- When required by law\n- To protect our rights and the platform\n\n**7.4 Patient Privacy**\nPatient health information is protected in accordance with applicable laws and regulations. Patients have control over who can access their health data."
+    },
+    "intellectual": {
+      "title": "8. Intellectual Property",
+      "content": "**8.1 Platform Ownership**\nCareNet owns all intellectual property related to the platform, including:\n- Software and code\n- Design elements\n- Content and materials\n- Trademarks and logos\n\n**8.2 User Content**\nUsers retain ownership of content they upload to the platform. However, by uploading content, you grant CareNet a license to use it for:\n- Providing services\n- Improving the platform\n- Marketing and promotional purposes (with consent)\n\n**8.3 Restrictions**\nYou may not:\n- Copy, modify, or distribute our platform\n- Use CareNet trademarks without permission\n- Reverse engineer our software"
+    },
+    "liability": {
+      "title": "9. Limitation of Liability",
+      "content": "**9.1 Disclaimer**\nCareNet is provided \"as is\" without warranties of any kind. We do not guarantee:\n- Uninterrupted or error-free operation\n- The accuracy or completeness of user information\n- The quality of care provided by caregivers or agencies\n\n**9.2 Limitation**\nTo the maximum extent permitted by law, CareNet shall not be liable for:\n- Indirect, incidental, or consequential damages\n- Lost profits or data\n- Personal injury or property damage\n- Actions of third parties (caregivers, agencies, users)\n\n**9.3 Care Quality Disclaimer**\nCareNet acts as a platform connecting users. We do not directly provide care services and are not responsible for the quality of care delivered by individual caregivers or agencies."
+    },
+    "termination": {
+      "title": "10. Termination",
+      "content": "**10.1 Termination by User**\nYou may terminate your account at any time through your Settings page. Upon termination:\n- Your access to the platform will be suspended\n- Outstanding obligations must be settled\n- Your data will be retained according to our retention policy\n\n**10.2 Termination by CareNet**\nWe reserve the right to suspend or terminate accounts for:\n- Violation of these Terms\n- Fraudulent or harmful activities\n- Failure to pay fees\n- Non-compliance with verification requirements"
+    },
+    "indemnification": {
+      "title": "11. Indemnification",
+      "content": "You agree to indemnify and hold CareNet harmless from claims arising from your use of the platform, violations of these Terms, harm caused to other users, and legal actions resulting from your conduct."
+    },
+    "governingLaw": {
+      "title": "12. Governing Law",
+      "content": "These Terms are governed by and construed in accordance with the laws of Bangladesh. Any disputes shall be resolved in the courts of Bangladesh."
+    },
+    "changes": {
+      "title": "13. Changes to Terms",
+      "content": "CareNet reserves the right to modify these Terms at any time. Users will be notified of significant changes. Continued use of the platform after changes constitutes acceptance of the updated Terms."
+    },
+    "severability": {
+      "title": "14. Severability",
+      "content": "If any provision of these Terms is found invalid or unenforceable, the remaining provisions shall continue in full force and effect."
+    },
+    "contact": {
+      "title": "15. Contact Information",
+      "content": "For questions about these Terms, please contact: legal@carenet.bd or +8801742957397."
+    }
+  }
+}

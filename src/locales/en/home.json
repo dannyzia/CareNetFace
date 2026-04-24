@@ -1,0 +1,178 @@
+{
+  "hero": {
+    "eyebrow": "Bangladesh's Trusted Caregiving Platform",
+    "headline1": "Quality Care,",
+    "headline2": "Connected",
+    "subheadline": "Connect with verified caregivers and licensed agencies. Bringing transparency, safety, and peace of mind to home healthcare across Bangladesh.",
+    "ctaPrimary": "Get Started Free",
+    "ctaSecondary": "Experience the App Demo",
+    "trustBadge1": "Verified Caregivers",
+    "trustBadge2": "24/7 Support",
+    "trustBadge3": "98% Satisfaction",
+    "statValue": "10K+",
+    "statLabel": "Verified Caregivers"
+  },
+  "stats": {
+    "title": "Trusted by Thousands Across Bangladesh",
+    "description": "Our platform connects families, caregivers, and agencies with transparency and safety",
+    "label1": "10K+ Verified Caregivers",
+    "label2": "24/7 Support Available",
+    "label3": "98% Customer Satisfaction",
+    "label4": "5K+ Happy Families",
+    "label5": "500+ Licensed Agencies"
+  },
+  "valueProps": {
+    "badge": "Why Choose Us",
+    "title": "Why Choose CareNet?",
+    "description": "Discover the benefits that make us Bangladesh's most trusted caregiving platform",
+    "prop1": {
+      "title": "Verified Caregivers",
+      "description": "Every caregiver undergoes a rigorous 6-step verification process including police clearance, certificate verification, and health checks."
+    },
+    "prop2": {
+      "title": "Real-Time Monitoring",
+      "description": "Track caregiver check-ins, care logs, and vital updates as they happen. Complete visibility into your loved one's care."
+    },
+    "prop3": {
+      "title": "Licensed Agency Network",
+      "description": "Access Bangladesh's top-rated care agencies, all vetted for compliance and reliability. Compare bids with confidence."
+    },
+    "prop4": {
+      "title": "Integrated Platform",
+      "description": "Everything in one place—search, book, schedule, communicate, pay, and track. No more juggling multiple apps."
+    },
+    "prop5": {
+      "title": "Offline-First Technology",
+      "description": "Care logs and check-ins save locally when there's no internet, syncing automatically when reconnected."
+    },
+    "prop6": {
+      "title": "Bilingual Support",
+      "description": "Full English and Bangla language support throughout the platform, with intelligent auto-detection."
+    },
+    "prop7": {
+      "title": "Secure Payments",
+      "description": "Pay securely through bKash, Nagad, Rocket, or credit card—all integrated with escrow protection."
+    },
+    "learnMore": "Learn more",
+    "badgeValue": "6-Step",
+    "badgeLabel": "Verification"
+  },
+  "targetAudience": {
+    "badge": "For Everyone",
+    "title": "Who Is CareNet For?",
+    "description": "Our platform serves every participant in the care journey with tailored experiences",
+    "guardians": {
+      "title": "For Guardians & Families",
+      "subtitle": "Find the perfect care for your loved ones",
+      "description": "Find and book verified caregivers for your loved ones. Post care requirements, review agency proposals, track care in real-time, and manage payments—all from one app.",
+      "features": ["Post care requirements", "Review agency proposals", "Track care in real-time", "Manage payments securely", "Family coordination hub"]
+    },
+    "caregivers": {
+      "title": "For Caregivers",
+      "subtitle": "Build your career in caregiving",
+      "description": "Discover jobs posted by agencies across Bangladesh. Build your portfolio, track earnings, log care digitally, and grow your career with our training portal.",
+      "features": ["Browse available jobs", "Build verified portfolio", "Track earnings transparently", "Digital care logging", "Access training resources"]
+    },
+    "agencies": {
+      "title": "For Care Agencies",
+      "subtitle": "Streamline your operations",
+      "description": "Streamline your entire operation—manage caregivers, respond to care requirements, monitor shifts, automate payroll, and track performance from a single dashboard.",
+      "features": ["Manage caregiver roster", "Respond to requirements", "Monitor shifts live", "Automate payroll", "Track performance metrics"]
+    },
+    "shops": {
+      "title": "For Shop Owners",
+      "subtitle": "Reach healthcare customers",
+      "description": "Sell healthcare products to the families and caregivers who need them. Manage inventory, track orders, and grow your revenue through our integrated marketplace.",
+      "features": ["List healthcare products", "Manage inventory", "Track orders easily", "Reach targeted customers", "Grow your revenue"]
+    },
+    "cta": "Get Started"
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "What Our Users Say",
+    "description": "Real stories from families, caregivers, and agencies using CareNet across Bangladesh",
+    "t1": {
+      "name": "Fatima K.",
+      "location": "Dhaka",
+      "role": "Guardian",
+      "quote": "Finding reliable care for my elderly mother was overwhelming until I found CareNet. The verification process gave me peace of mind, and the real-time tracking lets me check on her care anytime. The platform is easy to use, and the support team is always responsive."
+    },
+    "t2": {
+      "name": "Mohammad R.",
+      "location": "Chittagong",
+      "role": "Caregiver",
+      "quote": "CareNet transformed my career. I can find jobs that match my skills and location, track my earnings transparently, and build a verified portfolio. The offline feature is a lifesaver when working in areas with poor internet."
+    },
+    "t3": {
+      "name": "Rahman H.",
+      "location": "Sylhet",
+      "role": "Agency Owner",
+      "quote": "Managing 50+ caregivers used to be a nightmare of spreadsheets and phone calls. CareNet centralized everything—shift scheduling, payroll, client communication, and performance tracking. Our operational efficiency increased by 40%."
+    },
+    "stats": {
+      "rating": "4.9/5",
+      "ratingLabel": "Average Rating",
+      "users": "5,000+",
+      "usersLabel": "Happy Users",
+      "recommend": "98%",
+      "recommendLabel": "Would Recommend"
+    }
+  },
+  "trustSafety": {
+    "badge": "Safety First",
+    "title": "Your Safety Is Our Priority",
+    "description": "Comprehensive verification and protection for peace of mind",
+    "stepsTitle": "6-Step Verification Process",
+    "steps": {
+      "1": {
+        "title": "Certificate Verification",
+        "description": "Educational and professional certificates verified against issuing institutions"
+      },
+      "2": {
+        "title": "Police Clearance Check",
+        "description": "Criminal background verification through Bangladesh Police"
+      },
+      "3": {
+        "title": "Health Screening",
+        "description": "Medical fitness certification for caregiving work"
+      },
+      "4": {
+        "title": "Psychological Assessment",
+        "description": "Mental health and emotional stability evaluation"
+      },
+      "5": {
+        "title": "In-Person Interview",
+        "description": "Face-to-face assessment by CareNet team members"
+      },
+      "6": {
+        "title": "Final Approval & Monitoring",
+        "description": "Comprehensive review and ongoing performance monitoring"
+      }
+    },
+    "featuresTitle": "Additional Safety Measures",
+    "features": {
+      "1": {
+        "title": "Agency-Mediated Safety",
+        "description": "All caregivers are placed through licensed, verified agencies"
+      },
+      "2": {
+        "title": "Data Privacy & Security",
+        "description": "Row-level security, MFA, and encrypted data protection"
+      },
+      "3": {
+        "title": "24/7 Support",
+        "description": "Round-the-clock support via phone, WhatsApp, and email"
+      }
+    },
+    "badgeValue": "100%",
+    "badgeLabel": "Verified",
+    "badgeDescription": "Every caregiver on our platform undergoes complete verification"
+  },
+  "footerCTA": {
+    "title": "Still have questions?",
+    "description": "Our support team is here to help you get the most out of CareNet.",
+    "ctaPrimary": "Contact Support",
+    "ctaSecondary": "Visit Help Center",
+    "trustText": "No credit card required • Free to get started • Cancel anytime"
+  }
+}

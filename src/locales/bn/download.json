@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "badge": "অ্যাপটি পান",
+    "title": "{{app}} ডাউনলোড করুন",
+    "description": "অ্যাপ ডাউনলোড এখনও উপলব্ধ নয়। এটি আসন্ন ইনস্টলার এবং প্যাকেজের জন্য একটি প্লেসহোল্ডার পৃষ্ঠা।"
+  },
+  "platforms": {
+    "comingSoon": "শীঘ্রই আসছে",
+    "windows": {
+      "title": "Windows",
+      "description": ".exe ইনস্টলার শীঘ্রই আসছে"
+    },
+    "linuxDeb": {
+      "title": "Linux (deb)",
+      "description": ".deb প্যাকেজ প্লেসহোল্ডার"
+    },
+    "linuxRpm": {
+      "title": "Linux (rpm)",
+      "description": ".rpm প্যাকেজ প্লেসহোল্ডার"
+    },
+    "macos": {
+      "title": "macOS",
+      "description": ".dmg ইনস্টলার প্লেসহোল্ডার"
+    },
+    "android": {
+      "title": "Android",
+      "description": "APK ডাউনলোড প্লেসহোল্ডার"
+    }
+  },
+  "contact": {
+    "text": "তাৎক্ষণিক রিলিজ প্রয়োজন? আমাদের সাথে যোগাযোগ করুন",
+    "email": "carenet@digital-papyrus.xyz"
+  }
+}

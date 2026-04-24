@@ -1,0 +1,218 @@
+{
+  "hero": {
+    "badge": "Features",
+    "title": "Powerful Features for",
+    "subtitle": "Every Role",
+    "description": "CareNet serves every participant in the care journey with role-specific tools designed to make life easier."
+  },
+  "guardians": {
+    "title": "For Guardians",
+    "subtitle": "Everything you need to manage care for your loved ones",
+    "f1": {
+      "title": "Post Care Requirements",
+      "description": "Describe exactly what care your loved one needs and receive tailored proposals"
+    },
+    "f2": {
+      "title": "Browse Verified Agencies",
+      "description": "Review licensed agencies in your area and compare ratings"
+    },
+    "f3": {
+      "title": "Bid Review & Placement",
+      "description": "Compare agency proposals side-by-side with escrow protection"
+    },
+    "f4": {
+      "title": "Real-Time Shift Monitoring",
+      "description": "See caregiver check-ins, care logs, and vital updates as they happen"
+    },
+    "f5": {
+      "title": "Secure Payments",
+      "description": "Pay through bKash, Nagad, Rocket, or credit card with escrow protection"
+    },
+    "f6": {
+      "title": "Patient Care Dashboard",
+      "description": "Track all patients, active placements, and care history"
+    },
+    "f7": {
+      "title": "Care Requirements Wizard",
+      "description": "Step-by-step guidance to post comprehensive care requirements"
+    },
+    "f8": {
+      "title": "Family Hub",
+      "description": "Coordinate care among family members with shared access"
+    }
+  },
+  "caregivers": {
+    "title": "For Caregivers",
+    "subtitle": "Tools to build your career in caregiving",
+    "f1": {
+      "title": "Job Marketplace",
+      "description": "Browse care jobs posted by agencies across Bangladesh"
+    },
+    "f2": {
+      "title": "Digital Care Logging",
+      "description": "Record vital signs, medications, and tasks for every shift"
+    },
+    "f3": {
+      "title": "Earnings & Payouts",
+      "description": "Track daily and monthly earnings in real-time"
+    },
+    "f4": {
+      "title": "Portfolio & Reviews",
+      "description": "Build a verified work history and collect guardian reviews"
+    },
+    "f5": {
+      "title": "Training Portal",
+      "description": "Access skill assessments and professional development"
+    },
+    "f6": {
+      "title": "Shift Planner",
+      "description": "Manage your schedule and view upcoming shifts"
+    },
+    "f7": {
+      "title": "Skills Assessment",
+      "description": "Complete competency assessments and display verified skills"
+    },
+    "f8": {
+      "title": "Document Verification",
+      "description": "Upload certificates for platform verification"
+    }
+  },
+  "agencies": {
+    "title": "For Agencies",
+    "subtitle": "Streamline your entire operation",
+    "f1": {
+      "title": "Requirements Inbox",
+      "description": "Receive care requirement submissions directly from guardians"
+    },
+    "f2": {
+      "title": "Job Management",
+      "description": "Post jobs and manage the entire placement lifecycle"
+    },
+    "f3": {
+      "title": "Shift Monitoring",
+      "description": "Live dashboard showing caregiver check-ins across all clients"
+    },
+    "f4": {
+      "title": "Caregiver Roster",
+      "description": "Manage your entire caregiver workforce from one dashboard"
+    },
+    "f5": {
+      "title": "Payroll & Payouts",
+      "description": "Automate caregiver payroll calculations"
+    },
+    "f6": {
+      "title": "Agency Analytics",
+      "description": "Track revenue trends and placement success rates"
+    },
+    "f7": {
+      "title": "Staff Hiring",
+      "description": "Post job openings and streamline your hiring pipeline"
+    },
+    "f8": {
+      "title": "Backup Caregiver",
+      "description": "Assign backup caregivers for critical cases"
+    },
+    "f9": {
+      "title": "Incidents Management",
+      "description": "Log and track care incidents with compliance"
+    }
+  },
+  "patients": {
+    "title": "For Patients",
+    "subtitle": "Stay informed about your care",
+    "f1": {
+      "title": "Vitals Tracking",
+      "description": "Log blood pressure, pulse rate, glucose, and temperature"
+    },
+    "f2": {
+      "title": "Medication Reminders",
+      "description": "Receive scheduled reminders for every medication"
+    },
+    "f3": {
+      "title": "Emergency Hub",
+      "description": "One-tap access to emergency contacts and nearby hospitals"
+    },
+    "f4": {
+      "title": "Health Reports",
+      "description": "View comprehensive health summaries and download records"
+    },
+    "f5": {
+      "title": "Care History",
+      "description": "Full timeline of all care received with complete transparency"
+    },
+    "f6": {
+      "title": "Data Privacy Controls",
+      "description": "Control exactly who can view your health information"
+    },
+    "f7": {
+      "title": "Patient Schedule",
+      "description": "View upcoming caregiver shifts and appointments"
+    }
+  },
+  "shops": {
+    "title": "For Shop Owners",
+    "subtitle": "Reach healthcare customers",
+    "f1": {
+      "title": "Product Listings",
+      "description": "List medical equipment, mobility aids, and healthcare products"
+    },
+    "f2": {
+      "title": "Order Management",
+      "description": "Track orders from placement to fulfillment"
+    },
+    "f3": {
+      "title": "Revenue Analytics",
+      "description": "Monitor sales trends and identify top-performing products"
+    },
+    "f4": {
+      "title": "Inventory Tracking",
+      "description": "Set stock levels and receive low-inventory alerts"
+    },
+    "f5": {
+      "title": "Customer Orders",
+      "description": "View and manage all customer orders efficiently"
+    },
+    "f6": {
+      "title": "Product Reviews",
+      "description": "Collect and display customer reviews"
+    },
+    "f7": {
+      "title": "Merchant Onboarding",
+      "description": "Simple onboarding process to get your shop live"
+    },
+    "f8": {
+      "title": "Fulfillment Management",
+      "description": "Track order fulfillment and manage shipping"
+    }
+  },
+  "platform": {
+    "badge": "Platform-Wide",
+    "title": "Features for",
+    "subtitle": "Everyone",
+    "description": "Powerful capabilities built into every part of the CareNet platform",
+    "f1": {
+      "title": "Works Offline",
+      "description": "Care logs save locally and sync automatically"
+    },
+    "f2": {
+      "title": "Bilingual Support",
+      "description": "Full English and Bangla language support"
+    },
+    "f3": {
+      "title": "Mobile Native",
+      "description": "Installable as PWA or native Android/iOS app"
+    },
+    "f4": {
+      "title": "Real-Time Updates",
+      "description": "Live care feeds and instant notifications"
+    },
+    "f5": {
+      "title": "Secure by Design",
+      "description": "Row-level security and encrypted data"
+    },
+    "f6": {
+      "title": "24/7 Support",
+      "description": "Round-the-clock support via phone and WhatsApp"
+    }
+  }
+}

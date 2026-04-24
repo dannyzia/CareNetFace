@@ -1,0 +1,202 @@
+{
+  "hero": {
+    "badge": "Getting Started",
+    "title": "Getting Started with CareNet",
+    "description": "Your complete guide to using CareNet Bangladesh. Find answers to common questions and learn how to make the most of our platform."
+  },
+  "gettingStarted": {
+    "title": "Getting Started in 4 Easy Steps",
+    "description": "Follow these simple steps to start using CareNet",
+    "step1": {
+      "title": "Choose Your Role",
+      "description": "Select your role when registering—Guardian, Caregiver, Agency, Patient, or Shop Owner.",
+      "detail1": "Each role has a tailored experience for your specific needs"
+    },
+    "step2": {
+      "title": "Create Your Account",
+      "description": "Provide your basic information and secure your account.",
+      "detail1": "Name, phone number, email",
+      "detail2": "Verify phone number",
+      "detail3": "Enable two-factor authentication"
+    },
+    "step3": {
+      "title": "Complete Your Profile",
+      "description": "Add role-specific details to personalize your experience.",
+      "detail1": "Guardians: Add patients and set preferences",
+      "detail2": "Caregivers: Upload certifications, portfolio, availability",
+      "detail3": "Agencies: Add licenses, services, team members",
+      "detail4": "Patients: Add health info, emergency contacts, preferences",
+      "detail5": "Shop Owners: Set up shop, add products, configure shipping"
+    },
+    "step4": {
+      "title": "Start Using CareNet",
+      "description": "Explore features and connect with the CareNet community.",
+      "detail1": "Dashboard overview",
+      "detail2": "Browse options for your role",
+      "detail3": "Use support resources when needed"
+    }
+  },
+  "roleGuides": {
+    "title": "Guides by Role",
+    "description": "Step-by-step guides tailored to your role",
+    "guideTitle": "{{role}} Guide",
+    "followSteps": "Follow these steps to get the most out of CareNet as a {{role}}",
+    "guardians": {
+      "title": "For Guardians",
+      "step1": {
+        "title": "Post a Care Requirement",
+        "b1": "Patient information (age, condition, care needs)",
+        "b2": "Schedule requirements (days, hours, start date)",
+        "b3": "Location",
+        "b4": "Budget range",
+        "b5": "Special requirements (language, skills, equipment)"
+      },
+      "step2": {
+        "title": "Review Agency Bids",
+        "b1": "Compliance score (how well they match your requirements)",
+        "b2": "Caregiver qualifications",
+        "b3": "Proposed rates",
+        "b4": "Agency ratings and reviews",
+        "b5": "Any messages or clarifications from the agency"
+      },
+      "step3": {
+        "title": "Accept a Bid and Confirm Placement",
+        "b1": "Choose the bid that best fits your needs",
+        "b2": "Accepting locks the contract and initiates the placement process",
+        "b3": "Other bids are automatically rejected"
+      },
+      "step4": {
+        "title": "Monitor Care in Real-Time",
+        "b1": "See caregiver check-ins and check-outs",
+        "b2": "View care logs and vital recordings",
+        "b3": "Track medication administration",
+        "b4": "Communicate with caregivers and the agency"
+      },
+      "step5": {
+        "title": "Provide Feedback",
+        "b1": "Rate your caregiver and the agency after shifts are completed",
+        "b2": "Your feedback helps improve the platform and helps other families make informed decisions"
+      }
+    },
+    "caregivers": {
+      "title": "For Caregivers",
+      "step1": {
+        "title": "Browse Available Jobs",
+        "b1": "Location",
+        "b2": "Care type (elderly, pediatric, disability)",
+        "b3": "Shift timing",
+        "b4": "Compensation range",
+        "b5": "Required skills"
+      },
+      "step2": {
+        "title": "Apply for Jobs",
+        "b1": "Submit applications for jobs that match your skills and preferences",
+        "b2": "Include a brief message explaining why you are a good fit"
+      },
+      "step3": {
+        "title": "Complete Your Verification",
+        "b1": "If you have not already, complete the 6-step verification process",
+        "b2": "Verified caregivers receive priority in job matching"
+      },
+      "step4": {
+        "title": "Log Care During Shifts",
+        "b1": "Check in through the app (GPS and photo verification)",
+        "b2": "Log care activities, medications, and vitals throughout the shift",
+        "b3": "Add notes about the patient vegetation",
+        "b4": "Check out at the end of your shift"
+      },
+      "step5": {
+        "title": "Track Your Earnings",
+        "b1": "View your earnings in real-time from the Earnings dashboard",
+        "b2": "Monitor daily income, weekly summaries, and payment dates"
+      }
+    },
+    "agencies": {
+      "title": "For Agencies",
+      "step1": {
+        "title": "Respond to Care Requirements",
+        "b1": "Review incoming care requirements from guardians in your Requirements Inbox",
+        "b2": "Submit bids with staffing proposals, rates and terms, and care plans tailored to the patient's needs"
+      },
+      "step2": {
+        "title": "Manage Your Caregiver Team",
+        "b1": "Track all caregiver information",
+        "b2": "Schedule shifts and manage availability",
+        "b3": "Monitor performance and attendance",
+        "b4": "Handle time-off requests"
+      },
+      "step3": {
+        "title": "Monitor Active Placements",
+        "b1": "Track all active client placements from the Placements dashboard",
+        "b2": "See shift schedules and caregiver assignments",
+        "b3": "Real-time care logs and check-ins",
+        "b4": "Client feedback and ratings",
+        "b5": "Revenue and billing status"
+      },
+      "step4": {
+        "title": "Process Payroll",
+        "b1": "Use the automated payroll system to calculate caregiver earnings based on completed shifts",
+        "b2": "Process payouts via bKash or bank transfer with full audit trails"
+      }
+    }
+  },
+  "offlineMode": {
+    "title": "Offline Mode",
+    "subtitle": "How it works",
+    "f1": "Log care activities even without connection",
+    "f2": "Save data locally while offline",
+    "f3": "Auto-sync when you reconnect",
+    "f4": "Prevent data loss with offline buffer",
+    "bestPractices": "Best Practices",
+    "bp1": "Reconnect to Wi-Fi regularly",
+    "bp2": "Finish documentation before checkout",
+    "bp3": "Follow system prompts for unsynced records"
+  },
+  "communication": {
+    "title": "Communication Features",
+    "subtitle": "In-App Messaging and Notifications",
+    "messagingTitle": "In-App Messaging",
+    "m1": "Chat with caregivers, agencies, and guardians",
+    "m2": "Share care notes and instructions",
+    "m3": "Upload documents and images",
+    "m4": "Keep message history organized",
+    "notificationsTitle": "Notifications",
+    "n1": "Get push alerts for critical updates",
+    "n2": "Receive shift reminders and schedule changes",
+    "n3": "See new bid and application updates",
+    "n4": "Track payment confirmations"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Quick answers to common questions",
+    "q1": {
+      "question": "Is CareNet free to use?",
+      "answer": "Creating an account is free. We charge service fees on transactions and offer premium subscription plans for advanced features."
+    },
+    "q2": {
+      "question": "How long does verification take?",
+      "answer": "The 6-step verification process typically takes 3-7 business days, depending on how quickly you provide the required documents."
+    },
+    "q3": {
+      "question": "Can I change my role after registering?",
+      "answer": "You can add additional roles to your account. Contact support if you need to change your primary role."
+    },
+    "q4": {
+      "question": "What if I have technical issues?",
+      "answer": "Our support team is available 24/7 to help with technical issues. Submit a ticket or call our hotline for immediate assistance."
+    }
+  },
+  "support": {
+    "title": "Support Resources",
+    "description": "Get help when you need it",
+    "helpCenter": "Help Center",
+    "helpCenterDesc": "Access our comprehensive Help Center with articles, guides, and video tutorials on every aspect of using CareNet.",
+    "phone": "Phone Support",
+    "phoneDesc": "Phone: +8801742957397 (24/7 hotline)",
+    "email": "Email Support",
+    "emailDesc": "Email: carenet@digital-papyrus.xyz",
+    "whatsapp": "WhatsApp Support",
+    "whatsappDesc": "WhatsApp: +8801742957397",
+    "ticketNote": "If you have a specific issue or request, submit a support ticket through the app. Our team typically responds within 24 hours."
+  }
+}

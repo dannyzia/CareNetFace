@@ -1,0 +1,102 @@
+{
+  "hero": {
+    "badge": "Contact Us",
+    "title": "Get in {{action}}",
+    "description": "Have questions? We're here to help. Reach out to our team for support, inquiries, or feedback."
+  },
+  "contactInfo": {
+    "general": {
+      "title": "General Inquiries",
+      "email": "carenet@digital-papyrus.xyz",
+      "responseTime": "Within 24 hours"
+    },
+    "hotline": {
+      "title": "Support Hotline",
+      "phone": "+8801742957397",
+      "responseTime": "24/7 support available"
+    },
+    "whatsapp": {
+      "title": "WhatsApp Support",
+      "phone": "+8801742957397",
+      "responseTime": "24/7 support available"
+    },
+    "business": {
+      "title": "Business Inquiries",
+      "email": "business@carenet.bd",
+      "responseTime": "Partnerships & media"
+    }
+  },
+  "supportChannels": {
+    "liveChat": {
+      "title": "Live Chat",
+      "desc": "Available 24/7"
+    },
+    "helpCenter": {
+      "title": "Help Center",
+      "desc": "Browse knowledge base"
+    },
+    "community": {
+      "title": "Community Forum",
+      "desc": "Connect with users"
+    },
+    "video": {
+      "title": "Video Tutorials",
+      "desc": "Step-by-step guides"
+    }
+  },
+  "subjects": {
+    "general": "General Inquiry",
+    "technical": "Technical Support",
+    "billing": "Billing Question",
+    "feedback": "Feedback",
+    "reportIssue": "Report an Issue",
+    "partnership": "Partnership Inquiry",
+    "other": "Other"
+  },
+  "form": {
+    "title": "Send Us a Message",
+    "description": "Fill out the form below and we'll get back to you as soon as possible.",
+    "nameLabel": "Your Name",
+    "namePlaceholder": "Enter your full name",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "Enter your email",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "Enter your phone number",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "Choose a topic",
+    "messageLabel": "Message",
+    "messagePlaceholder": "How can we help you?",
+    "submit": "Submit Message",
+    "sending": "Sending...",
+    "success": "Your message has been sent. Thank you!",
+    "successTitle": "Message Sent!",
+    "successMessage": "Thank you for reaching out. We'll get back to you within 24 hours.",
+    "errors": {
+      "required": "Please fill out all required fields."
+    },
+    "error": "Something went wrong while sending your message. Please try again later."
+  },
+  "office": {
+    "title": "Head Office",
+    "company": "CareNet Bangladesh",
+    "location": "Dhaka, Bangladesh",
+    "hoursTitle": "Business Hours",
+    "weekdays": "Sunday - Thursday: 9:00 AM - 6:00 PM",
+    "weekend": "Friday - Saturday: Closed"
+  },
+  "responseTimes": {
+    "title": "Response Times",
+    "general": "General Inquiries",
+    "generalTime": "Within 24 hours",
+    "technical": "Technical Issues",
+    "technicalTime": "Within 4-8 hours",
+    "urgent": "Urgent Support (Phone)",
+    "urgentTime": "Immediate",
+    "billing": "Billing Questions",
+    "billingTime": "Within 24 hours"
+  },
+  "support": {
+    "title": "More Ways to Get Help",
+    "description": "Explore our support resources"
+  }
+}
